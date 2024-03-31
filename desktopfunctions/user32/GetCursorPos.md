@@ -1,23 +1,11 @@
-[DllImport("user32.dll")]
-[return: MarshalAs(UnmanagedType.Bool)]
-static extern bool GetCursorPos(out POINT point);
-[StructLayout(LayoutKind.Sequential)]
-struct POINT
-  {
-    public Int32 X;
-    public Int32 Y;
-}
-<DllImport("user32.dll", ExactSpelling := True, SetLastError := True)> _
-    Public Shared Function GetCursorPos(ByRef lpPoint As POINT) As <MarshalAs(UnmanagedType.Bool)> Boolean
-    End Function
-Declare Function GetCursorPos Lib "user32.dll" _
-   (ByRef lpPoint As POINT) as boolean
+# GetCursorPos
 
-<DllImport("user32.dll")> _
-   Public Function GetCursorPos(<[In](), Out()> ByRef pt As POINT) As Boolean
-   End Function
+\[DllImport("user32.dll")] \[return: MarshalAs(UnmanagedType.Bool)] static extern bool GetCursorPos(out POINT point); \[StructLayout(LayoutKind.Sequential)] struct POINT   {     public Int32 X;     public Int32 Y; } \<DllImport("user32.dll", ExactSpelling := True, SetLastError := True)> \_     Public Shared Function GetCursorPos(ByRef lpPoint As POINT) As \<MarshalAs(UnmanagedType.Bool)> Boolean     End Function Declare Function GetCursorPos Lib "user32.dll" \_    (ByRef lpPoint As POINT) as boolean
 
-## Point declaration
+\<DllImport("user32.dll")> \_    Public Function GetCursorPos(<[In](GetCursorPos.md), Out()> ByRef pt As POINT) As Boolean    End Function
+
+### Point declaration
+
 ```cs
 <System.Runtime.InteropServices.StructLayout(Runtime.InteropServices.LayoutKind.Sequential)> _
    Public Structure POINT
@@ -31,7 +19,8 @@ Declare Function GetCursorPos Lib "user32.dll" _
    End Structure
 ```
 
-## Tips & Tricks:
+### Tips & Tricks:
+
 ```cs
 POINT p;
 if (GetCursorPos(out p))
@@ -40,7 +29,8 @@ if (GetCursorPos(out p))
 }
 ```
 
-## Tips & Tricks:
+### Tips & Tricks:
+
 ```cs
 [StructLayout(LayoutKind.Sequential)]
     struct POINT
@@ -64,7 +54,8 @@ if (GetCursorPos(out p))
     }
 ```
 
-## Alternative Managed API:
+### Alternative Managed API:
+
 ```cs
 System.Windows.Forms.Cursor.Position
 ```

@@ -1,9 +1,9 @@
-[DllImport("Ws2_32.dll")]
-    public static extern int bind(IntPtr s, ref sockaddr_in addr, int addrsize);
-[DllImport("Ws2_32.dll")]
-    public static extern int bind(IntPtr s, ref sockaddr_in6 addr, int addrsize);
+# bind
 
-## VB Signature:
+\[DllImport("Ws2\_32.dll")]     public static extern int bind(IntPtr s, ref sockaddr\_in addr, int addrsize); \[DllImport("Ws2\_32.dll")]     public static extern int bind(IntPtr s, ref sockaddr\_in6 addr, int addrsize);
+
+### VB Signature:
+
 ```cs
 Declare Function bind Lib "ws2_32.dll" ( _
         socketHandle As IntPtr, _
@@ -11,14 +11,16 @@ Declare Function bind Lib "ws2_32.dll" ( _
         addressLength as Integer) As Integer
 ```
 
-## User-Defined Types:
+### User-Defined Types:
+
 ```cs
 /// <summary>
 /// Internet socket address structure.
 /// </summary>
 ```
 
-## Sample Code:
+### Sample Code:
+
 ```cs
 public static bool Bind(string ipAddress, int port, IntPtr socketHandle)
 {

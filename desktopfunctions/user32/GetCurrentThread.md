@@ -1,2 +1,3 @@
-[DllImport("kernel32.dll")]
-    private static extern IntPtr GetCurrentThread();
+# GetCurrentThread
+
+\[DllImport("kernel32.dll")]     private static extern IntPtr GetCurrentThread();
