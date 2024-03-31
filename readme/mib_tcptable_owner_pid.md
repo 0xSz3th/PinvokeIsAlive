@@ -1,2 +1,0 @@
-# MIB\_TCPTABLE\_OWNER\_PID
-

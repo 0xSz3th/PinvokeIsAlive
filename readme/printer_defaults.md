@@ -1,2 +1,0 @@
-# PRINTER\_DEFAULTS
-

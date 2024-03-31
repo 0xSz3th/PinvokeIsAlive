@@ -1,2 +1,0 @@
-# SP\_DEVINFO\_DATA
-

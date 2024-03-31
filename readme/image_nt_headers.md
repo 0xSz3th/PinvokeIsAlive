@@ -1,2 +1,0 @@
-# IMAGE\_NT\_HEADERS
-

@@ -1,2 +1,0 @@
-# ICMP\_ECHO\_REPLY
-

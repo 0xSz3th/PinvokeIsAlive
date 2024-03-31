@@ -1,2 +1,0 @@
-# ACL\_SIZE\_INFORMATION
-

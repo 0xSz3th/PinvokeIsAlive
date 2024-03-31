@@ -1,2 +1,0 @@
-# USB\_HCD\_DRIVERKEY\_NAME
-

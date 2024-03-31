@@ -1,2 +1,0 @@
-# MIB\_TCP6ROW\_OWNER\_PID
-

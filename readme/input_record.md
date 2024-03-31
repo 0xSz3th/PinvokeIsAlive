@@ -1,2 +1,0 @@
-# INPUT\_RECORD
-

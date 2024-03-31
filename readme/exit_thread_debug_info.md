@@ -1,2 +1,0 @@
-# EXIT\_THREAD\_DEBUG\_INFO
-

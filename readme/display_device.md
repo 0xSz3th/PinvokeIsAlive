@@ -1,2 +1,0 @@
-# DISPLAY\_DEVICE
-

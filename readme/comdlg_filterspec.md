@@ -1,2 +1,0 @@
-# COMDLG\_FILTERSPEC
-

@@ -1,2 +1,0 @@
-# USB\_HUB\_DESCRIPTOR
-

@@ -1,2 +1,0 @@
-# GLOBAL\_POWER\_POLICY
-

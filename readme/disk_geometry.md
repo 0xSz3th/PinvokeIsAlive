@@ -1,2 +1,0 @@
-# DISK\_GEOMETRY
-

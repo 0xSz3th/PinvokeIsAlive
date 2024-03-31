@@ -1,2 +1,0 @@
-# WIN32\_FIND\_DATA
-

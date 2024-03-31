@@ -1,2 +1,0 @@
-# IMAGE\_DATA\_DIRECTORY
-

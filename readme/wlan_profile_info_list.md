@@ -1,2 +1,0 @@
-# WLAN\_PROFILE\_INFO\_LIST
-

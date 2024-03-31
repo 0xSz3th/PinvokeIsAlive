@@ -1,2 +1,0 @@
-# DHCP\_CLIENT\_INFO\_ARRAY
-

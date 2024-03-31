@@ -1,2 +1,0 @@
-# FILE\_ID\_BOTH\_DIR\_INFO
-

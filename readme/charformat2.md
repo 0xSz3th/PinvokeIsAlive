@@ -1,2 +1,0 @@
-# CHARFORMAT2
-
