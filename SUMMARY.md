@@ -552,6 +552,7 @@
     * [getcomputername](desktopfunctions/kernel32/getcomputername.md)
     * [getprivateprofilesectionnames](desktopfunctions/kernel32/getprivateprofilesectionnames.md)
     * [heapwalk](desktopfunctions/kernel32/heapwalk.md)
+    * [WriteProcessMemory](desktopfunctions/kernel32/writeprocessmemory-1.md)
     * [iswow64process](desktopfunctions/kernel32/iswow64process.md)
     * [\_ContentBaseDefinition](desktopfunctions/kernel32/kernel32.md)
     * [lstrcpy](desktopfunctions/kernel32/lstrcpy.md)
