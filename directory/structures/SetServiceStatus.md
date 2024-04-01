@@ -1,26 +1,24 @@
-myServiceStatus.currentState = (int)State.SERVICE_START_PENDING;
-        myServiceStatus.checkPoint = 1;
-        myServiceStatus.waitHint = 5000;
-        SetServiceStatus(handle, ref myServiceStatus)
-myServiceStatus.currentState = (int)State.SERVICE_RUNNING;
-        myServiceStatus.checkPoint = 0;
-        myServiceStatus.waitHint = 0;
-        SetServiceStatus(handle, ref myServiceStatus);
+# SetServiceStatus
 
-## C# Definition:
+myServiceStatus.currentState = (int)State.SERVICE\_START\_PENDING;         myServiceStatus.checkPoint = 1;         myServiceStatus.waitHint = 5000;         SetServiceStatus(handle, ref myServiceStatus) myServiceStatus.currentState = (int)State.SERVICE\_RUNNING;         myServiceStatus.checkPoint = 0;         myServiceStatus.waitHint = 0;         SetServiceStatus(handle, ref myServiceStatus);
+
+### C# Definition:
+
 ```cs
 [DllImport("advapi32.dll")]
    private static extern bool SetServiceStatus(IntPtr hServiceStatus, ref SERVICE_STATUS lpServiceStatus);
 ```
 
-## VB Definition:
+### VB Definition:
+
 ```cs
 ByVal hServiceStatus As IntPtr, 
     ByRef lpServiceStatus As SERVICE_STATUS) 
     As Integer
 ```
 
-## User-Defined Field Types:
+### User-Defined Field Types:
+
 ```cs
 public enum State
     {

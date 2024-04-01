@@ -1,10 +1,9 @@
-IntPtr bufptr = IntPtr.Zero;
-        int err;
-        IntPtr ptr = IntPtr.Zero;
-        int output = NetShareGetInfo("<ServerName>", @"<ShareName>", 502, out ptr);
-        SHARE_INFO_502 shareInfo = (SHARE_INFO_502)Marshal.PtrToStructure(ptr, typeof(SHARE_INFO_502));
+# SHARE\_INFO\_502
 
-## C# Definition:
+IntPtr bufptr = IntPtr.Zero;         int err;         IntPtr ptr = IntPtr.Zero;         int output = NetShareGetInfo("", @"", 502, out ptr);         SHARE\_INFO\_502 shareInfo = (SHARE\_INFO\_502)Marshal.PtrToStructure(ptr, typeof(SHARE\_INFO\_502));
+
+### C# Definition:
+
 ```cs
 [StructLayout(LayoutKind.Sequential)]
     public struct SHARE_INFO_502
@@ -25,7 +24,8 @@ IntPtr bufptr = IntPtr.Zero;
     }
 ```
 
-## VB Definition:
+### VB Definition:
+
 ```cs
 Structure SHARE_INFO_502 
    Public TODO
